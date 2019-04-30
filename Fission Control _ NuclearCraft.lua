@@ -10,25 +10,6 @@ local function BA()
     b= component.nc_fission_reactor.GetFissionFuelTime() - component.nc_fission_reactor.GetCurrentProcessTime()
     return b
 end
-
-
---local function GP()
---  return reactor.getEnergyStored()
---end
---local mP, MP = 4000, reactor.getMaxEnergyStored()
---local MMP, CP = (MP / 4) * 3, GP()
---local function EmergengyHeatStopSystem()
- --   while CP > 0 and y > 0 do
-   --   if CP > MMP then
-     --   component.nc_fission_reactor.activate()   
-      --elseif CP < mP then
-        --component.nc_fission_reactor.deactivate() 
-        --y=0
-      --end
-    --  CP = GP() 
-  --  end
---end
- 
  
 --------------------------------------------------------------------------------
 
